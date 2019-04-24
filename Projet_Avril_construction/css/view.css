@@ -1,0 +1,42 @@
+body
+{
+    background: linear-gradient(to right ,rgba(0, 0, 0, 0.4),rgba(58, 214, 136, 0.2)),url(../img/img_1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-item
+{
+    text-transform: uppercase;
+}
+.nav-item:hover
+{
+    border-bottom: 2px solid #28a745;
+    transition: all 0.4s ease-in;
+}
+
+
+.nav-item
+{
+    text-transform: uppercase;
+}
+.nav-item:hover
+{
+    border-bottom: 2px solid #28a745;
+    transition: all 0.4s ease-in;
+}
+
+/*MON CONTENU*/
+
+#contenu
+{
+    margin-top:130px;
+}
+
+.jumbotron form label
+{
+    font-weight: bold;
+    text-transform: uppercase;
+}

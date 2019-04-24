@@ -1,0 +1,68 @@
+.nav-item
+{
+    text-transform: uppercase;
+}
+.nav-item:hover
+{
+    border-bottom: 2px solid #28a745;
+    transition: all 0.4s ease-in;
+}
+
+#contenu
+{
+    margin-top: 50px;
+}
+
+#contenu h3
+{
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 50px;
+    color: #343a40;
+}
+#contenu .divider
+{
+    background-color: #343a40;
+    width: 100px;
+    height: 3px;
+    margin-left: 47%;
+    margin-bottom: 50px;
+}
+
+#contenu .card
+{
+    border-top:3px solid  #343a40 ;
+    border-left:3px solid  #343a40 ;
+}
+#contenu .card-body p
+{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer
+{
+    background: linear-gradient(to right ,rgba(0,0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../img/img_20.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:60px;
+	height: 250px;
+}
+
+footer .logo
+{
+    margin-top: 50px;
+    margin-left: 45%;
+}
+footer h3
+{
+    text-transform : uppercase;
+}
+footer h4
+{
+    color: #fff;
+    opacity: 0.5;
+    margin-top:20px;
+}
